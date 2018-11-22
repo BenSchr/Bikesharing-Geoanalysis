@@ -194,4 +194,4 @@ def pltStreetCount(doc):
     bottom, top = plt.ylim()
     plt.ylim(top, bottom) 
     # Show graphic
-    #plt.show()
+    plt.show()
