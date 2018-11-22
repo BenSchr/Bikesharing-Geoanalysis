@@ -1,5 +1,5 @@
 # Bikesharing-Geoanalysis
-Crawled OpenData from a Bikesharing-Company and analysed it with the Help of Python osmnx and folium
+Crawled OpenData from a Bikesharing-Company and analysed it with the help of Python osmnx and folium
 
 
 You will need the Pythonmodule [**OSMnx**](https://github.com/gboeing/osmnx) to perform the geolocation and calculate the routes.
@@ -17,7 +17,7 @@ Also we can save the calculated routes into a database to make later analysis on
 
 The functions used in the [main.ipynb](main.ipynb) are stored in [processes.py](processes.py)
 
-So after loading the csvfile as dataframe we can calculate the routes with **transform()** which returns a python dictionary giving us a lot of freedom to process the data in next steps. This will take some minutes since the calculating of the routes is timeintensive.
+So after loading the csvfile as a dataframe we can calculate the routes with **transform()** which returns a python dictionary giving us a lot of freedom to process the data in next the steps. This will take some minutes since the calculating of the routes is very timeintensive.
 
 `routes = ps.transform(df)`
 
