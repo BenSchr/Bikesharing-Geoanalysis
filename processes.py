@@ -124,7 +124,7 @@ def heatfromdoc(doc):
     timestamps = []
     for row in doc:
         timestamps.append(row["starttime"])
-    timestamps = list(set(sorted(timestamps)))
+    timestamps = list(sorted(timestamps))
 
     datapoints = []
     cnt = 0
